@@ -10,11 +10,11 @@ def map(array)
 end
 
 def reduce(array, starting point=0)
-  total_array = []
+  total = []
   counter = 0
   while counter < array.length do
-    total_array = (yield(array[counter]), sum))
+    total = (yield(array[counter]), total))
     counter += 1
   end
-  total_array
+  total
 end
