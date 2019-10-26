@@ -10,7 +10,7 @@ def map(array)
 end
 
 def reduce(array, starting point=0)
-  total = []
+  total = starting_point
   counter = 0
   while counter < array.length do
     total = (yield(array[counter]), total))
