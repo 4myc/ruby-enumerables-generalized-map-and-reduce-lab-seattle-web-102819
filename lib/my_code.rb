@@ -13,5 +13,5 @@ def reduce(array, starting point=0)
   total_array = []
   counter = 0
   while counter < array.length do
-    if (yield(total_array)
+    if (yield(array[counter], sum)
 end
