@@ -10,8 +10,8 @@ def map(array)
 end
 
 def reduce(array, starting point=0)
-  total = []
+  total_array = []
   counter = 0
   while counter < array.length do
-    if (yield()
+    if (yield(total_array)
 end
