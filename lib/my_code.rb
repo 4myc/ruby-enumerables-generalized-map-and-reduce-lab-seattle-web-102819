@@ -14,4 +14,6 @@ def reduce(array, starting point=0)
   counter = 0
   while counter < array.length do
     if (yield(array[counter], sum)
+  end
+  total_array
 end
