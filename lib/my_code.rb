@@ -10,5 +10,7 @@ def map(array)
 end
 
 def reduce(array, starting point=0)
+  total = []
+  counter = 0
   
 end
